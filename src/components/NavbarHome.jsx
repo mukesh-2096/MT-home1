@@ -19,7 +19,7 @@ export default function NavbarHome() {
             {/* Enhanced Brand */}
             <div
               className="flex items-center gap-3 cursor-pointer hover:opacity-90 transition-opacity duration-200"
-              onClick={() => navigate('/')}
+              onClick={() => navigate('/home')}
             >
               <img src={logoImg} alt="Diksuchi logo" className="w-10 h-10 rounded-full object-cover" />
               <div className="text-2xl font-semibold text-slate-900">
